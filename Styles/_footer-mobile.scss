@@ -1,0 +1,21 @@
+.footer-mobile {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: 1px solid lightgray;
+  .footer-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .mountain {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+}
