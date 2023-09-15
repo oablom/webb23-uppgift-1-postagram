@@ -27,16 +27,47 @@
   height: 25px;
   width: 25px;
 }
+.footer-mobile .footer-icon:hover {
+  cursor: pointer;
+}
 .footer-mobile .mountain {
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
 
+.card-mobile .card-mobile-name {
+  height: 76px;
+}
+.card-mobile .card-mobile-icone {
+  border-radius: 50%;
+  height: 39px;
+  width: 39px;
+  position: absolute;
+  margin: 20px;
+}
+.card-mobile .card-mobile-img {
+  width: 100vw;
+}
+.card-mobile .card-mobile-opacity {
+  background: rgb(36, 36, 36);
+  height: 84px;
+  transform: translateY(-134px);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  color: white;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+main {
+  padding-top: 46px;
 }
 
 @media only screen and (min-width: 768px) {
